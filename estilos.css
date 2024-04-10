@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Honk&display=swap');
+@font-face {
+    font-family: GridiculousMax;
+    src: url(Fonts/GridiculousMax.ttf);
+}
+@font-face {
+    font-family: MADE TOMMY Regular_PERSONAL USE;
+    src: url(Fonts/MADE\ TOMMY\ Regular_PERSONAL\ USE.otf);
+}
+@font-face {
+    font-family: MADE TOMMY Medium Outline_PERSONAL USE;
+    src: url(Fonts/MADE\ TOMMY\ Medium\ Outline_PERSONAL\ USE.otf);
+}
+h1 {
+    font-family: GridiculousMax;
+}
+h2 {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p {
+    font-family: MADE TOMMY Regular_PERSONAL USE;
+}
+header {
+    font-family: MADE TOMMY Regular_PERSONAL USE;
+}
+h4 {
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+h3 {
+    font-family: MADE TOMMY Medium Outline_PERSONAL USE;
+}
+ul {
+    font-family: MADE TOMMY Regular_PERSONAL USE;
+}
+a {
+    font-family: MADE TOMMY Regular_PERSONAL USE;
+} 
+.logo {
+    float: right;
+}
+.flex-conteiner {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+.flex-item {
+    font-family: GridiculousMax;
+    width: 20px;
+    height: 20px;
+    border: 5px;
+    padding: 10px;
+    margin: 15px;
+    background-color: peru;
+    border-style: double;
+    text-decoration: none;
+    color: black;
+}
+.grid-conteiner {
+    display: grid;
+    height: 100%;
+    border: groove black 5px;
+    grid-template-areas:
+    "header header header"
+    "article article aside"
+    "article article aside"
+    "footer footer footer";
+    background-color: slategray;
+    grid-template-rows: repeat(4, minmax(min-content, max-content));
+}
+.grid-item {
+    border: solid black 2px;
+    margin: 1%;
+    padding: 5%;
+}
+.grid-header {
+    grid-area: header;
+    background-color: lightgreen;
+}
+.grid-article {
+    grid-area: article;
+    background-color: pink;
+}
+.grid-aside {
+    grid-area: aside;
+    background-color: thistle;
+}
+.grid-footer {
+    grid-area: footer;
+    background-color: blanchedalmond;
+}
+@media screen and (min-width:320px) and (max-width:600px) {
+    .grid-item {
+        background-color: powderblue;
+    }
+}
+@media screen and (min-width:600px) and (max-width:1024px) {
+    .grid-item {
+        background-color: darkolivegreen;
+    }
+}
+@media screen and (min-width:1024px) {
+    .grid-item {
+        background-color: aquamarine;
+    }
+}
+@media screen and (min-width:600px) and (max-width:1024px) {
+    .grid-item:hover {
+        background-color: crimson;
+    }
+}
+@media screen and (min-width:1024px) {
+    .grid-item:hover {
+        background-color: indigo;
+    }
+}
+.c {
+    height: 300px;
+    padding: 2%;
+} 
+.b {
+    height: 350px;
+    padding: 2%;
+}
+.a {
+    height: 250px;
+    padding: 2%;
+}
+.rmm {
+    height: 380px;
+    margin-left: 1%;
+}
+.aa {
+    height: 500px;
+    padding: 2%;
+}
+.aaa {
+    padding: 2%;
+}
+.bbb {
+    padding: 2%;
+}
