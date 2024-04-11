@@ -136,8 +136,9 @@ a {
     padding: 2%;
 }
 .rmm {
-    height: 380px;
+    height: 350px;
     margin-left: 1%;
+    border: groove 8px royalblue;
 }
 .aa {
     height: 500px;
